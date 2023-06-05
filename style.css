@@ -1,0 +1,743 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 78px;
+    /* background-color: red; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 1px 0px;
+}
+
+header .logo {
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header .logo img {
+    width: 100%;
+    height: 78px;
+    background-color: transparent;
+}
+
+header .input-box {
+    width: 400px;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+header .input-box i {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 4.7%;
+    left: 28.7%;
+    cursor: pointer;
+}
+
+header .input-box input {
+    width: 400px;
+    height: 50px;
+    padding-left: 40px;
+    outline: none;
+    border: 1px solid rgb(102, 101, 101);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .input-box button {
+    width: 66.84px;
+    height: 34px;
+    position: absolute;
+    left: 51%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+header .locate {
+    width: 270px;
+    height: 52px;
+    background-color: aqua;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+header .locate i {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+header.locate h3 {
+    font-weight: lighter;
+    margin-left: -40px;
+}
+
+header .user-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: black; */
+    height: 80px;
+    border-left: 1px solid #8e8e93;
+    padding-left: 30px;
+}
+
+header .user-box .icon-box {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid #8e8e93;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .user-box .icon-box i {
+    color: #8e8e93;
+    padding: 2px;
+    cursor: pointer;
+}
+
+header .user-box h3 {
+    color: #616166;
+}
+
+nav {
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    /* background-color: brown; */
+    display: flex;
+    gap: 65px;
+}
+
+nav img {
+    width: 170px;
+    height: 115px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+article h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+article .img-box {
+    display: flex;
+    gap: 60px;
+}
+
+article .img-box img {
+    width: 230px;
+    height: 117px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+article .text-box-wrapper {
+    display: flex;
+    text-transform: capitalize;
+    gap: 210px;
+}
+
+article .text-box {
+    margin-top: 15px;
+}
+
+article .text-box2 {
+    margin-left: 8px;
+}
+
+article .text-box3 {
+    margin-left: 12px;
+}
+
+article .text-box4 {
+    margin-left: 10px;
+}
+
+article .text-box5 {
+    margin-left: -40px;
+}
+
+section {
+    margin-top: 60px;
+    width: 100%;
+    height: 120px;
+    /* background-color: aqua; */
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
+
+section h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+section .box-menus {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .box-menus .menu1 {
+    display: flex;
+
+}
+
+section .box-menus .menu {
+    width: 110px;
+    height: 20px;
+    padding: 10px;
+    background-color: #dcdce2;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .box-menus .menu i {
+    color: red;
+}
+
+section .box-menus .menulasst {
+    display: flex;
+}
+
+section .box-menus .menulasst i {
+    color: #616166;
+}
+
+section .box-menus .menu .fa-arrow-down-long {
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+aside {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+aside .food {
+    width: 27%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside .food img {
+    width: 345px;
+    height: 185px;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+}
+
+aside .food .food-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+aside .food .food-icon-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+aside .food .food-icon-box .food-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 22px;
+    background-color: #dadadd;
+    border-radius: 10px;
+    margin-left: -50px;
+    transition: 0.3s;
+}
+
+aside .food .food-icon-box .food-icon:hover {
+    background-color: #eaeaf0;
+}
+
+aside .food .food-icon-box .food-icon p {
+    margin-left: 10px;
+}
+
+aside .food .heart-box {
+    width: 9%;
+    height: 30px;
+    position: relative;
+    left: 80%;
+    top: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+aside .food .heart-box:hover {
+    background-color: #ececf1;
+}
+
+aside .food .heart-box i:active {
+    color: red;
+}
+
+.delivery{
+    position: absolute;
+    left: 44%;
+    transform: translateY(20px);
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    background-color: rgb(233, 233, 36);
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 6%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #8e8e93;
+    box-shadow: 0px -1px 3px 0px;
+}
+
+footer .footer-text {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+footer .footer-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+footer .footer-box .icon-box {
+    cursor: pointer;
+    display: flex;
+}
+
+footer .footer-box .icon-box i {
+    padding-right: 10px;
+}
+
+.delivery-box{
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(9, 151, 9);
+    display: flex;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.delivery-box .pay{
+    width: 20%;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 220px;
+    margin-left: 150px;
+    color: #fff;
+    background-color: rgb(8, 8, 197);
+}
+
+.delivery-box h3{
+    position: relative;
+    top: 30%;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    header .logo img {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    header .logo h2 {
+        font-size: 20px;
+    }
+
+    header .input-box {
+        width: 230px;
+    }
+
+    header .input-box i {
+        top: 5.5%;
+        left: 32%;
+        font-size: 15px;
+    }
+
+    header .input-box button {
+        margin-left: -20px;
+        width: 6%;
+    }
+
+    header .input-box input {
+        width: 200px;
+        margin-left: -5%;
+    }
+
+    header .locate {
+        width: 23%;
+        margin-left: 5%;
+    }
+
+    header .locate h3 {
+        width: 100px;
+        margin-left: -40px;
+        font-size: 15px;
+    }
+
+    header .locate i {
+        margin-left: -5px;
+        font-size: 15px;
+    }
+
+    header .user-box {
+        width: 8%;
+    }
+
+    header .user-box .icon-box i {
+        font-size: 15px;
+    }
+
+    header h3 {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    nav img {
+        width: 155px;
+    }
+
+    article h1 {
+        font-size: 25px;
+    }
+
+    article .img-box img {
+        width: 155px;
+    }
+
+    article h4,
+    p {
+        white-space: nowrap;
+    }
+
+    .text-box2 {
+        transform: translateX(-70px);
+    }
+
+    .text-box3 {
+        transform: translateX(-140px);
+    }
+
+    .text-box4 {
+        transform: translateX(-210px);
+    }
+
+    .text-box5 {
+        transform: translateX(-290px);
+    }
+
+    .box-menus .menu {
+        margin-left: -10px;
+    }
+
+    .box-menus {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu {
+        transform: scale(0.8);
+    }
+
+    section h1 {
+        font-size: 25px;
+    }
+
+    .food {
+        display: flex;
+        transform: translateX(-80px);
+    }
+
+    .food img {
+        transform: scale(0.9);
+    }
+
+    .food-text {
+        font-size: 14px;
+        transform: translateX(20px);
+    }
+
+    .food-icon {
+        width: 60px;
+    }
+
+    .food-icon {
+        font-size: 15px;
+        transform: translateX(40px);
+    }
+
+    .heart-box {
+        transform: translateX(100px);
+    }
+
+    .btn {
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    .footer-text {
+        margin-left: 20px;
+    }
+
+    .footer-box {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        width: 200%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header img {
+        transform: scale(1);
+    }
+
+    .logo h2 {
+        transform: scale(1);
+        margin-left: -30px;
+    }
+
+    .logo {
+        position: relative;
+        left: 20%;
+    }
+
+    .input-box input {
+        opacity: 0;
+    }
+
+    .input-box button {
+        opacity: 0;
+    }
+
+    .input-box i {
+        transform: translateX(90px);
+    }
+
+    .locate {
+        transform: scale(1);
+    }
+
+    .locate h3,
+    i {
+        transform: scale(1);
+    }
+
+    .user-box i,
+    h3 {
+        transform: scale(1);
+    }
+
+    nav {
+        margin-left: 300px;
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav img {
+        transform: scale(1.1);
+    }
+
+    article {
+        margin-top: 30%;
+    }
+
+    article h1,
+    img {
+        transform: scale(1.1);
+    }
+
+    article .img-box {
+        margin-left: 420px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    article .text-box-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: -14%;
+        margin-left: -8%;
+    }
+
+    .remove {
+        opacity: 0;
+    }
+
+    section h1 {
+        margin-left: 50%;
+        transform: scale(1.2);
+    }
+
+    .box-menus {
+        opacity: 0;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: -10px;
+    }
+
+    aside .food img {
+        transform: scale(1.1);
+    }
+
+    .heart-box {
+        opacity: 0;
+    }
+
+    .food-text {
+        font-size: 20px;
+        white-space: nowrap;
+        transform: translate(130%, 40%);
+    }
+
+    .food-icon-box .fa-star {
+        opacity: 0;
+    }
+
+    .fa-car {
+        margin-left: -80%;
+    }
+
+    .food-icon-box {
+        transform: translate(120%, 90%);
+    }
+
+    .btn {
+        width: 70%;
+        /* transform: scale(0.8); */
+    }
+
+    footer {
+        width: 140%;
+    }
+
+    .footer-text {
+        margin-left: 130px;
+    }
+
+    .text-box {
+        margin-left: 100px;
+    }
+}
